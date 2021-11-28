@@ -1,0 +1,24 @@
+p {
+  margin: 0%;
+}
+.Encabezado {
+  text-align: center;
+  background-color: beige;
+  color: red;
+}
+.uno {
+  float: left;
+  width: 50%;
+  background-color: beige;
+  color: rgb(22, 4, 4);
+  height: 21em;
+}
+.dos {
+  overflow: auto;
+  float: right;
+  font-size: 100%;
+  width: 50%;
+  background-color: rgb(25, 216, 191);
+  color: rgb(15, 15, 12);
+  height: 21em;
+}

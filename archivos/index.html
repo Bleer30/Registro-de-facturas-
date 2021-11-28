@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <title>vista de archivos</title>
+    <script type="text/javascript" src="clase.js"></script>
+    <link rel="stylesheet" href="estilo.css">  
+</head>
+    <body>
+        <div class="Encabezado">
+            <p>Arreglos</p>
+        </div>
+        <div class="uno">
+            <label for="Tiquete"> Tiquete </label>
+            <input type="text" name="Tiquete" id="Tiquete">
+            <label for="Tiquete"> (solo escribir factura o abono)</label>
+            <br><br>
+            <label for="Nombre"> Nombre </label>
+            <input type="text" name="Nombre" id="Nombre">
+            <br> <br>
+            <label for="Cedula"> Cedula </label>
+            <input type="text" name="Cedula" id="Cedula">
+            <br><br>
+            <label for="Monto"> Monto </label>
+            <input type="number" name="Monto" id="Monto">
+            <br><br>
+            <label for="Fecha"> Fecha </label>
+            <input type="text" name="Fecha" id="Fecha">
+            <br><br>
+            <label for="Motivo"> Motivo </label>
+            <input type="text" name="Motivo" id="Motivo">
+            <label for="Motivo">(Si su tiquete es abono no hace falta que llene este campo)</label>
+            <br><br>
+            <button type="button" onclick=" Object.Variables()">Guardar</button>
+            <button type="button" onclick=" Object.contabilidad()">Contabilidad</button>
+            <br><br>
+            <p id="conta">su contabilidad es 0</p>
+            <br><br>
+            <label for="Modificar"> coloque el codigo del registro que desea modificar y LLENE TODOS LOS CAMPOS </label>
+            <input type="number" name="Modificar" id="Modificar">
+            <br><br>
+            <button type="button" onclick=" Object.Variables2()">Modificar</button>
+        </div>
+        <br>
+        <div class="dos">
+           <p id="salida">hi</p>
+        </div>
+    </body>   
+</html>
